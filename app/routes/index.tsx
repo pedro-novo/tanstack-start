@@ -36,12 +36,12 @@ function Home() {
     <button
       type="button"
       onClick={() => {
-        updateCount({ data: 1 }).then(() => {
+        updateCount({ data: 2 }).then(() => {
           router.invalidate();
         });
       }}
     >
-      Add 1 to {state}?
+      Add 2 to {state}?
     </button>
   );
 }
